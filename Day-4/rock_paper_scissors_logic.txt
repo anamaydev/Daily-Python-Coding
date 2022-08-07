@@ -1,0 +1,25 @@
+0 -> Rock	1 -> Paper	2 -> Scissor
+
+tie:
+cpu		user
+0		0
+1		1
+2		2
+
+
+cpu		user
+0		1		user
+1		2		user
+2		0		user
+
+
+cpu 		user
+0		2		cpu
+1		0		cpu
+2		1		cpu
+
+
+	0	1	2
+0 	tie	user	cpu		
+1	cpu	tie	user
+2	user	cpu	tie
